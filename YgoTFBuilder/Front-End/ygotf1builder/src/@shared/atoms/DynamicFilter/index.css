@@ -1,0 +1,8 @@
+.filter-input {
+  width: 600px;
+  border-radius: 5px;
+  padding-left: 10px;
+  background: none;
+  border: 1px solid gray;
+  color: white;
+}

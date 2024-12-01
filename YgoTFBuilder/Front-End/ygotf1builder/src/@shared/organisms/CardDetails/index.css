@@ -1,0 +1,15 @@
+.card-details {
+  border: 1px solid gray;
+  width: 350px;
+}
+
+.info-direction-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.info-direction-row {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}

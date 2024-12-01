@@ -1,0 +1,21 @@
+.deck-edit-form__deck-section {
+  display: flex;
+  flex-direction: column;
+
+  border-bottom: 1px solid gray;
+
+  margin-top: 20px;
+}
+
+.deck-edit-form__deck-header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+
+.deck-edit-form__deck-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}

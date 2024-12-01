@@ -1,0 +1,26 @@
+.menu-option__card-display .card {
+  width: 120px;
+  height: 160px;
+}
+
+.menu-option__card-display .card:nth-child(1) {
+  position: relative;
+  left: 50px;
+  z-index: 0;
+  transform: rotateZ(320deg);
+}
+
+.menu-option__card-display .card:nth-child(2) {
+  position: relative;
+  width: 160px;
+  height: 200px;
+
+  z-index: 1;
+}
+
+.menu-option__card-display .card:nth-child(3) {
+  position: relative;
+  right: 50px;
+  z-index: 0;
+  transform: rotateZ(40deg);
+}

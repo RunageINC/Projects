@@ -1,0 +1,16 @@
+.cards__content {
+  display: flex;
+  gap: 30px;
+
+  max-width: 80vw;
+}
+
+.cards__card-list {
+  max-width: 60vw;
+}
+
+.cards__card-details {
+  margin-top: 130px;
+  max-width: 40vw;
+  min-width: 40vw;
+}

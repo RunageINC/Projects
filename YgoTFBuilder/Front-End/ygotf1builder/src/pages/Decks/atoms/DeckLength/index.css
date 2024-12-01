@@ -1,0 +1,11 @@
+.deck-size-wrong {
+  color: red;
+}
+
+.deck-size-ok {
+  color: green;
+}
+
+.deck-size-warning {
+  color: yellow;
+}
