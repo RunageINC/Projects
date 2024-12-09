@@ -1,0 +1,15 @@
+.load-race-photo {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  border: 1px dashed rgb(198, 198, 198);
+  border-radius: 8px;
+  color: rgb(198, 198, 198);
+
+  width: 100%;
+  height: 100%;
+}
