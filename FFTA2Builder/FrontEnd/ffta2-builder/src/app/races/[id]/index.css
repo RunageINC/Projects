@@ -1,0 +1,47 @@
+.race-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 30px;
+  font-weight: bold;
+
+  height: 50px;
+}
+
+.description-container {
+  width: 40vw;
+  padding: 20px;
+
+  border-left: 4px solid gray;
+  font-style: italic;
+}
+
+.job-header {
+  font-size: 22px;
+
+  font-weight: bold;
+}
+
+.job-card {
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 120px;
+  height: 140px;
+
+  border: 1px solid black;
+  border-radius: 10px;
+
+  gap: 20px;
+
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.job-card:hover {
+  transform: scale(1.15);
+}

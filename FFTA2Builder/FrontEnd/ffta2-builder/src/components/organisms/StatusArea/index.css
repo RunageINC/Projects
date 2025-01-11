@@ -1,0 +1,38 @@
+.status-container {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+
+  gap: 5px;
+
+  padding: 5px 0;
+
+  border-bottom: 1px solid rgb(242, 242, 242);
+}
+
+.status-container-with-rank {
+  display: flex;
+
+  align-items: center;
+
+  border-bottom: 1px solid rgb(242, 242, 242);
+}
+
+.stat-title {
+  font-weight: bold;
+  min-width: 40px;
+}
+
+.stat-title-black-container {
+  width: 60px;
+  height: 100px;
+  padding: 0 10px;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  background-color: black;
+  color: white;
+}

@@ -1,0 +1,29 @@
+.ability {
+  padding: 10px;
+
+  border: 1px solid black;
+  border-radius: 8px;
+
+  color: rgb(231, 231, 231);
+
+  font-weight: bold;
+  font-variant: small-caps;
+  text-align: center;
+
+  width: 100px;
+}
+
+.command {
+  border: 1px solid rgb(37, 123, 244);
+  background-color: rgb(57, 124, 218);
+}
+
+.reaction {
+  border: 1px solid rgb(233, 29, 29);
+  background-color: rgb(211, 68, 68);
+}
+
+.passive {
+  border: 1px solid rgb(60, 194, 26);
+  background-color: rgb(68, 211, 70);
+}

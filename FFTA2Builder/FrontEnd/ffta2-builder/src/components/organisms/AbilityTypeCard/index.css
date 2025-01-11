@@ -1,0 +1,30 @@
+.ability-card {
+  border: 1px solid rgb(204, 204, 204);
+}
+
+.ability-card-content {
+  padding: 10px;
+}
+
+.ability-header {
+  display: flex;
+  align-items: center;
+
+  justify-content: space-between;
+}
+
+.ability-description {
+  margin-top: 10px;
+  padding: 10px 0;
+
+  font-style: italic;
+  font-variant: small-caps;
+}
+
+.ability-container h1 {
+  font-size: 28px;
+  font-variant: small-caps;
+  font-weight: bold;
+  margin-bottom: 10px;
+  border-bottom: 1px solid rgb(214, 214, 214);
+}

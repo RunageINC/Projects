@@ -1,0 +1,23 @@
+.star {
+  padding: 3px;
+  display: flex;
+  border-radius: 999px;
+  border: 1px solid red;
+  background: rgb(255, 96, 0);
+  background: -moz-radial-gradient(
+    circle,
+    rgba(255, 96, 0, 1) 24%,
+    rgba(255, 156, 0, 1) 73%
+  );
+  background: -webkit-radial-gradient(
+    circle,
+    rgba(255, 96, 0, 1) 24%,
+    rgba(255, 156, 0, 1) 73%
+  );
+  background: radial-gradient(
+    circle,
+    rgba(255, 96, 0, 1) 24%,
+    rgba(255, 156, 0, 1) 73%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff6000",endColorstr="#ff9c00",GradientType=1);
+}

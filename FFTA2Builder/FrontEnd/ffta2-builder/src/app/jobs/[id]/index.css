@@ -1,0 +1,61 @@
+.job-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 30px;
+  font-weight: bold;
+
+  height: 50px;
+}
+
+.description-container {
+  width: 40vw;
+  padding: 20px;
+
+  border-left: 4px solid gray;
+  font-style: italic;
+}
+
+.rank-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 10px;
+
+  padding: 20px;
+
+  border: 1px solid black;
+  /* border-radius: 8px; */
+
+  width: 120px;
+
+  background-color: rgb(65, 65, 65);
+}
+
+.status-title-big {
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+}
+
+.status-title,
+.rank-number {
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.requirements-title {
+  display: flex;
+  flex-direction: row;
+  gap: 3px;
+
+  font-weight: bold;
+}
+
+.card-text {
+  font-variant: small-caps;
+}

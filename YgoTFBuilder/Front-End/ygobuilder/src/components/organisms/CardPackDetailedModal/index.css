@@ -1,0 +1,30 @@
+.pack-information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+
+  width: 100%;
+
+  padding-left: 20px;
+}
+
+.pack-information > h3 {
+  font-size: 2rem;
+  font-variant: small-caps;
+}
+
+.pack-information > div {
+  display: flex;
+
+  gap: 8px;
+
+  margin-top: 20px;
+  width: 90%;
+}
+
+.unlocked-by {
+  font-style: italic;
+  color: rgb(174, 174, 174);
+}

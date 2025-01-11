@@ -1,0 +1,9 @@
+.pack-cover-card {
+  height: 180px;
+  width: 220px;
+}
+
+.pack-cover-card.large {
+  height: 240px;
+  width: 300px;
+}

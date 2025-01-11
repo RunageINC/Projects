@@ -1,0 +1,16 @@
+.ygo-builder__menu-header {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 10px;
+  padding: 10px 0;
+
+  border-bottom: 1px solid rgba(205, 205, 205, 0.618);
+}
+
+.ygo-builder__menu-header span {
+  font-variant: small-caps;
+  font-weight: bold;
+}

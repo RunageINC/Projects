@@ -1,0 +1,11 @@
+.ability-header-title {
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.ability-name {
+  font-weight: 500;
+  font-style: oblique;
+}
