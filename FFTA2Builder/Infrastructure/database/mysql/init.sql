@@ -18,7 +18,7 @@ CREATE TABLE IF NOT EXISTS `clan` (
     `negotiation` TINYINT UNSIGNED DEFAULT 0,
     `aptitude` TINYINT UNSIGNED DEFAULT 0,
     `teamwork` TINYINT UNSIGNED DEFAULT 0,
-    `adaptability` TINYINT UNSIGNED DEFAULT 0,
+    `adaptability` TmINYINT UNSIGNED DEFAULT 0,
     `img_url` LONGTEXT DEFAULT NULL,
     `game_id` BIGINT NOT NULL
 );

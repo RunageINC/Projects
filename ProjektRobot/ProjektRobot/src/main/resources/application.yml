@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: ProjektRobot
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/projekt_robot
+    username: robotadmin
+    password: robotadmin
+
+jwt:
+  key: "94e3d9fb7b0942e7c8f85c4c5ca2a30addaf1508c113ed0b39054988244e58b07dc78bf7991a4f1892d7cfc4d4fad2359a60b2f23efa0f6dfb17cff8d3b2b65a"
+

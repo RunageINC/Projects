@@ -1,0 +1,26 @@
+version: "3.8"
+
+services:
+  mysql:
+    build: ./database/mysql
+    container_name: projekt_robot_mysql
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: projekt_robot
+      MYSQL_USER: robotadmin
+      MYSQL_PASSWORD: robotadmin
+      MYSQL_INNODB_FORCE_RECOVERY: 1
+    volumes:
+      - ./database/mysql/volumes/projekt_robot:/var/lib/mysql
+    networks:
+      - projekt_robot
+    user: "${UID}:${GID}"
+
+networks:
+  projekt_robot:
+    driver: bridge
+
+volumes:
+  mysql_data:
