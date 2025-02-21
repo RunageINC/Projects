@@ -16,6 +16,7 @@ services:
       - ./database/mysql/volumes/ff_volume:/var/lib/mysql
     networks:
       - ff_network
+    user: "${UID}:${GID}"
   
 networks:
   ff_network:

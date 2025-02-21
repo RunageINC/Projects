@@ -22,6 +22,7 @@ import { Search } from "lucide-react";
 import { URL, IMAGE_URL } from "@/constants/backendConstants";
 
 async function getAllRaces() {
+  console.log("URL", URL);
   const response = await fetch(`${URL}/races`, {
     headers: {
       "Access-Control-Allow-Origin": "*",
