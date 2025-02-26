@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      .flexbox {
+        display: flex;
+
+        gap: 20px;
+        width: fit-content;
+
+        border: 1px solid rgb(179, 179, 179);
+        border-radius: 9px;
+        padding: 10px;
+      }
+
+      .metric > h2 {
+        font-weight: normal;
+        color: rgb(23, 159, 227);
+      }
+
+      .metric {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .metric:nth-child(2) {
+        border-right: 1px solid rgb(198, 198, 198);
+        border-left: 1px solid rgb(198, 198, 198);
+
+        padding: 0 30px;
+      }
+
+      .label {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+      }
+
+      .tip {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(5, 141, 214);
+        color: white;
+        font-weight: bold;
+        border: 1px solid rgb(5, 141, 214);
+        width: 20px;
+        height: 20px;
+        padding: 3px;
+        border-radius: 999px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flexbox">
+      <div class="metric">
+        <h2>0</h2>
+        <div class="label">
+          <p>Tickets atendidos</p>
+          <div class="tip">
+            <span>?</span>
+          </div>
+        </div>
+      </div>
+      <div class="metric">
+        <h2>0</h2>
+        <div class="label">
+          <p>Tickets atendidos</p>
+          <div class="tip">
+            <span>?</span>
+          </div>
+        </div>
+      </div>
+      <div class="metric">
+        <h2>0</h2>
+        <div class="label">
+          <p>Tickets atendidos</p>
+          <div class="tip">
+            <span>?</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
