@@ -1,0 +1,232 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  margin: 30px;
+}
+
+.section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header {
+  height: 40px;
+}
+
+.header i {
+  font-size: 30px;
+}
+
+.income {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+
+  margin-top: 20px;
+}
+
+.hidden-income {
+  display: flex;
+  gap: 3px;
+
+  margin-top: 10px;
+}
+
+.dot {
+  width: 6px;
+  height: 6px;
+  background-color: #000;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.ph-eye-closed {
+  font-size: 24px;
+}
+
+.ph-caret-right {
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.other-accounts {
+  height: 30px;
+  border-bottom: 1px solid gray;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+.other-accounts div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bank {
+  margin-top: 20px;
+}
+
+.card-section {
+  display: flex;
+  overflow-y: scroll;
+  width: 1000vw;
+
+  margin-top: 40px;
+
+  gap: 15px;
+}
+
+.card,
+.opinate {
+  border: 1px solid rgb(226, 226, 226);
+  background-color: rgb(226, 226, 226);
+  border-radius: 12px;
+  padding: 8px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  width: 100px;
+  height: 100px;
+}
+
+.card-section .ph,
+.feedback-card .ph {
+  color: blue;
+  font-size: 25px;
+}
+
+.opinate {
+  display: flex;
+  justify-content: space-between;
+
+  margin: 30px auto;
+
+  width: 80vw;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+
+.feedback-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.feedback-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.bolder {
+  font-weight: 500;
+}
+
+.received {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.received-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.received-icons {
+  display: flex;
+  gap: 20px;
+}
+
+.received-icons .ph {
+  font-size: 22px;
+}
+
+.head-2 {
+  font-size: 22px;
+}
+
+.received-tabs {
+  margin-top: 30px;
+  display: flex;
+  border-bottom: 1px solid gray;
+  gap: 20px;
+}
+
+.received-tab {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: fit-content;
+  height: 40px;
+}
+
+.received-tab.selected {
+  font-weight: 600;
+  border-bottom: 1px solid blue;
+}
+
+.one {
+  background-color: blue;
+  color: white;
+  width: 15px;
+  height: 15px;
+  font-size: 14px;
+  border-radius: 9999px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px;
+  margin-left: 10px;
+}
+
+.received-content {
+  margin-top: 20px;
+}
+
+.date-title {
+  font-weight: 600;
+}
+
+.content-pix {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  height: 80px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid gray;
+}
+
+.pix-title {
+  color: gray;
+}
+
+.pix-from {
+  font-weight: 600;
+}
+
+.pix-value {
+  color: green;
+}
+
+.content-pix-text {
+  display: flex;
+  flex-direction: column;
+
+  gap: 8px;
+}
+
+.feedback-content .ph {
+  font-size: 15px;
+  color: black;
+}

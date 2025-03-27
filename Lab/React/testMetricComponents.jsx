@@ -1,45 +1,15 @@
-// 1st approach
+const Page = () => {
+  const { context } = useAppContext();
+  const [open, setOpen] = useState(false);
 
-const Kpi = () => {
+  const onClose = () => {
+    setOpen(false);
+    context.setUnit(undefined);
+  };
+
   return (
     <div>
-      <h1>hey</h1>
+      <Drawer open={open} onClose={onClose} unit={context.setUnit} />
     </div>
-  );
-};
-
-const MetricComponent = () => {
-  return (
-    <div>
-      <Kpi />
-    </div>
-  );
-};
-
-const Metrics = (props) => {
-  return <MetricComponent {...props} />;
-};
-
-// ---------------------------------------------------
-
-// 2nd approach
-
-const Kpi = () => {
-  return (
-    <div>
-      <h1>hey</h1>
-    </div>
-  );
-};
-
-const MetricComponent = ({ children }) => {
-  return <div>{children}</div>;
-};
-
-const Metrics = () => {
-  return (
-    <MetricComponent>
-      <Kpi />
-    </MetricComponent>
   );
 };
