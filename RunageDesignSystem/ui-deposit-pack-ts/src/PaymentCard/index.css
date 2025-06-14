@@ -1,0 +1,268 @@
+.uiDepositPack-paymentCard {
+  display: flex;
+  align-items: center;
+}
+
+.paymentCardBody {
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.paymentCardRounded {
+  border-radius: 8px;
+}
+
+.paymentCard-black {
+  background-color: black;
+}
+
+.paymentCard-blue {
+  background: linear-gradient(112deg, #44009b 0%, #2370ca 100%);
+}
+
+.paymentCard-purple {
+  background: linear-gradient(
+    110deg,
+    #ff9d3f 0.07%,
+    #f46772 40.61%,
+    #af33e4 69.54%,
+    #2f70e4 100.44%
+  );
+}
+
+.paymentCard-purple.withPattern1 {
+  background-image: linear-gradient(
+      110deg,
+      #ff9d3f 0.07%,
+      #f46772 40.61%,
+      #af33e4 69.54%,
+      #2f70e4 100.44%
+    ),
+    url("./assets/Pattern1.svg");
+  background-blend-mode: multiply;
+  background-size: cover, contain;
+  background-repeat: no-repeat, no-repeat;
+  background-position: center, center;
+}
+
+.paymentCard-purple.withPattern2 {
+  background-image: linear-gradient(
+      110deg,
+      #ff9d3f 0.07%,
+      #f46772 40.61%,
+      #af33e4 69.54%,
+      #2f70e4 100.44%
+    ),
+    url("./assets/Pattern2.svg");
+  background-blend-mode: multiply;
+  background-size: cover, contain;
+  background-repeat: no-repeat, no-repeat;
+  background-position: center, center;
+}
+
+.paymentCard-purple.withPattern3 {
+  background-image: linear-gradient(
+      110deg,
+      #ff9d3f 0.07%,
+      #f46772 40.61%,
+      #af33e4 69.54%,
+      #2f70e4 100.44%
+    ),
+    url("./assets/Pattern3.svg");
+  background-blend-mode: multiply;
+  background-size: cover, contain;
+  background-repeat: no-repeat, no-repeat;
+  background-position: center, center;
+}
+
+.paymentCard-purple.withPattern4 {
+  background-image: linear-gradient(
+      110deg,
+      #ff9d3f 0.07%,
+      #f46772 40.61%,
+      #af33e4 69.54%,
+      #2f70e4 100.44%
+    ),
+    url("./assets/Pattern4.svg");
+  background-blend-mode: multiply;
+  background-size: cover, contain;
+  background-repeat: no-repeat, no-repeat;
+  background-position: center, center;
+}
+
+.paymentCard-blue.withPattern1 {
+  background-image: linear-gradient(112deg, #44009b 0%, #2370ca 100%),
+    url("./assets/Pattern1.svg");
+  background-blend-mode: multiply;
+  background-size: cover, contain;
+  background-repeat: no-repeat, no-repeat;
+  background-position: center, center;
+}
+
+.paymentCard-blue.withPattern2 {
+  background-image: linear-gradient(112deg, #44009b 0%, #2370ca 100%),
+    url("./assets/Pattern2.svg");
+  background-blend-mode: multiply;
+  background-size: cover, contain;
+  background-repeat: no-repeat, no-repeat;
+  background-position: center, center;
+}
+
+.paymentCard-blue.withPattern3 {
+  background-image: linear-gradient(112deg, #44009b 0%, #2370ca 100%),
+    url("./assets/Pattern3.svg");
+  background-blend-mode: multiply;
+  background-size: cover, contain;
+  background-repeat: no-repeat, no-repeat;
+  background-position: center, center;
+}
+
+.paymentCard-blue.withPattern4 {
+  background-image: linear-gradient(112deg, #44009b 0%, #2370ca 100%),
+    url("./assets/Pattern4.svg");
+  background-blend-mode: multiply;
+  background-size: cover, contain;
+  background-repeat: no-repeat, no-repeat;
+  background-position: center, center;
+}
+
+.paymentCard-gold.withPattern1 {
+  background-image: linear-gradient(
+      112deg,
+      #f5d67a 0%,
+      #d4a017 50%,
+      #b8860b 100%
+    ),
+    url("./assets/Pattern1.svg");
+  background-blend-mode: multiply;
+  background-size: cover, contain;
+  background-repeat: no-repeat, no-repeat;
+  background-position: center, center;
+}
+
+.paymentCard-gold.withPattern2 {
+  background-image: linear-gradient(
+      112deg,
+      #f5d67a 0%,
+      #d4a017 50%,
+      #b8860b 100%
+    ),
+    url("./assets/Pattern2.svg");
+  background-blend-mode: multiply;
+  background-size: cover, contain;
+  background-repeat: no-repeat, no-repeat;
+  background-position: center, center;
+}
+
+.paymentCard-gold.withPattern3 {
+  background-image: linear-gradient(
+      112deg,
+      #f5d67a 0%,
+      #d4a017 50%,
+      #b8860b 100%
+    ),
+    url("./assets/Pattern3.svg");
+  background-blend-mode: multiply;
+  background-size: cover, contain;
+  background-repeat: no-repeat, no-repeat;
+  background-position: center, center;
+}
+
+.paymentCard-gold.withPattern4 {
+  background-image: linear-gradient(
+      112deg,
+      #f5d67a 0%,
+      #d4a017 50%,
+      #b8860b 100%
+    ),
+    url("./assets/Pattern4.svg");
+  background-blend-mode: multiply;
+  background-size: cover, contain;
+  background-repeat: no-repeat, no-repeat;
+  background-position: center, center;
+}
+
+.withPattern1 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("./assets/Pattern1.svg");
+}
+
+.withPattern2 {
+  background-size: cover, contain;
+  background-repeat: no-repeat, no-repeat;
+  background-position: center, center;
+  background-image: url("./assets/Pattern2.svg");
+}
+
+.withPattern3 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("./assets/Pattern3.svg");
+}
+
+.withPattern4 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("./assets/Pattern4.svg");
+}
+
+.paymentCardNotch {
+  justify-content: center;
+}
+
+.paymentCardNotch > span {
+  font-size: 0.6rem;
+
+  color: rgba(255, 255, 255, 0.7);
+  background-image: url("./assets/Notch.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  padding-top: 3px;
+  line-height: 18px;
+}
+
+.paymentCardChip {
+  position: relative;
+  top: 80%;
+  left: 45%;
+}
+
+.paymentCardNumber {
+  background-color: rgba(89, 89, 89, 0.273);
+  border: 1px solid rgba(168, 168, 168, 0.354);
+
+  padding: 4px 6px;
+  font-size: 1.125rem;
+  font-weight: 500;
+  width: 75%;
+  height: 30px;
+  text-align: center;
+}
+
+.paymentCardNumberSeparation {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 20px;
+}
+
+.paymentCardFooter {
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.paymentCardDueDateSection {
+  background-color: rgba(89, 89, 89, 0.273);
+  border: 1px solid rgba(168, 168, 168, 0.354);
+  align-items: center;
+  justify-content: center;
+  font-size: 0.7rem;
+
+  padding: 4px 6px;
+}

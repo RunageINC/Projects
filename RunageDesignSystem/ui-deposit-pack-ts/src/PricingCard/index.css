@@ -1,0 +1,180 @@
+.uiDepositPack-PricingCard {
+  position: relative;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.1),
+    0px 15px 30px 0px rgba(0, 0, 0, 0.1), 0px 20px 40px 0px rgba(0, 0, 0, 0.15);
+}
+
+.pricingCardBodyBg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  border-radius: 10px;
+  background: conic-gradient(
+    from 187deg at 40.63% 50.41%,
+    rgba(242, 98, 181, 0) 125.17920970916748deg,
+    #5fc5ff 193.4119462966919deg,
+    #ffac89 216.0206937789917deg,
+    #8155ff 236.0708713531494deg,
+    #789dff 259.95326042175293deg,
+    rgba(159, 115, 241, 0) 311.0780096054077deg
+  );
+  filter: blur(20px);
+}
+
+.pricingCardBody {
+  border-radius: 10px;
+
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.1),
+    0px 15px 30px 0px rgba(0, 0, 0, 0.1), 0px 20px 40px 0px rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(10px);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+
+  padding: 20px;
+}
+
+.pricingCardBody-light {
+  border: 1px solid var(--Light-Mode-Container-Border, rgba(255, 255, 255, 0.1));
+  background: var(
+    --Light-Mode-Container-Background,
+    linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.6) 0%,
+      rgba(255, 255, 255, 0.5) 100%
+    )
+  );
+
+  color: black;
+}
+
+.pricingCardBody-dark {
+  border: 1px solid var(--Dark-Mode-Container-Border, rgba(255, 255, 255, 0.07));
+
+  background: var(--Dark-Mode-Container-Background, rgba(0, 0, 0, 0.5));
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.pricingCardBodyValues {
+  display: flex;
+  flex-direction: column;
+}
+
+.pricingCardValuesTitle {
+  font-size: 1rem;
+  line-height: 20px;
+}
+
+.currency {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.currency-light {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.pricingCardValue {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+.pricingCardValue-dark {
+  color: white;
+}
+
+.pricingCardValuesFooter {
+  font-size: 0.8rem;
+}
+
+.pricingCardValuesFooter-light {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.pricingCardValuesFooter-dark {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.pricingCardValuesOffers {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.offerItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.8rem;
+}
+
+.offerIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  border-radius: 999px;
+  padding: 5px;
+}
+
+.offerIcon-light {
+  border: 1px solid black;
+}
+
+.offerIcon-dark {
+  border: 1px solid white;
+}
+
+.pricingCardButton {
+  all: unset;
+
+  border-radius: var(--Button-corner-radius, 8px);
+  /* Shadow-Blur/sm */
+  box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.05),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.05), 0px 10px 10px 0px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+
+  padding: 6px 16px;
+
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.pricingCardButton-light {
+  border: 2px solid var(rgba(255, 255, 255, 0.1));
+  background: var(
+    --Light-Mode-Container-Background,
+    linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.6) 0%,
+      rgba(255, 255, 255, 0.5) 100%
+    )
+  );
+}
+
+.pricingCardButton-dark {
+  border: 2px solid
+    var(--Dark-Mode-Container-Border, rgba(255, 255, 255, 0.332));
+  background: var(--Dark-Mode-Container-Background, rgba(0, 0, 0, 0.5));
+}
+
+.pricingCardButton:hover {
+  transform: scale(1.1);
+}

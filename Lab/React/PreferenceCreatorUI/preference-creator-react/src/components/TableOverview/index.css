@@ -1,0 +1,37 @@
+th,
+td {
+  width: 100px;
+  border: 1px solid white;
+  text-align: center;
+}
+
+tr > th:nth-child(1),
+tr > td:nth-child(1) {
+  width: 50px;
+}
+
+.empty-head-col {
+  width: 100px;
+  border: 1px solid white;
+  background-color: gray;
+}
+
+th {
+  width: 100px;
+}
+
+tr > td:nth-child(1) {
+  background-color: black;
+}
+
+td {
+  background-color: rgba(199, 199, 199, 0.36);
+}
+
+.col-letter-index {
+  background-color: rgb(122, 197, 122);
+}
+
+.col-header {
+  background-color: rgb(84, 200, 235);
+}
