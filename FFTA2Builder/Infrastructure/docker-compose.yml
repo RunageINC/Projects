@@ -3,7 +3,7 @@ version: '3.8'
 services:
   mysql:
     build: ./database/mysql
-    container_name: mysql_container
+    container_name: ffta2_builder_sql
     ports:
       - "3306:3306"
     environment:
