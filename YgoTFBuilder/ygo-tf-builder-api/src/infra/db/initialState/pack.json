@@ -1,0 +1,435 @@
+{
+"pack": [
+	{
+		"id" : 19,
+		"name" : "First Spell-Trap",
+		"cost" : 100,
+		"unlock_condition" : "Unlocked at the Beginning",
+		"cover_card" : "https:\/\/images.ygoprodeck.com\/images\/cards_cropped\/72302403.jpg",
+		"cards_in_pack" : 68,
+		"cards_per_pack" : 5
+	},
+	{
+		"id" : 20,
+		"name" : "Skillful Spellcasters",
+		"cost" : 100,
+		"unlock_condition" : "At least 5 characters cleared stages 2 and 3",
+		"cover_card" : "https:\/\/images.ygoprodeck.com\/images\/cards_cropped\/40737112.jpg",
+		"cards_in_pack" : 48,
+		"cards_per_pack" : 5
+	},
+	{
+		"id" : 21,
+		"name" : "Go Go Direct",
+		"cost" : 100,
+		"unlock_condition" : "Packs First Effect Monsters, Step Up Spell-Trap, and Step Up Fusion have at least 80% collected",
+		"cover_card" : "https:\/\/images.ygoprodeck.com\/images\/cards_cropped\/95638658.jpg",
+		"cards_in_pack" : 53,
+		"cards_per_pack" : 5
+	},
+	{
+		"id" : 22,
+		"name" : "Spice of Duel",
+		"cost" : 100,
+		"unlock_condition" : "Reach level 30",
+		"cover_card" : "https:\/\/images.ygoprodeck.com\/images\/cards_cropped\/84243274.jpg",
+		"cards_in_pack" : 58,
+		"cards_per_pack" : 5
+	},
+	{
+		"id" : 23,
+		"name" : "Gift of Wind",
+		"cost" : 100,
+		"unlock_condition" : "First stage Thursday",
+		"cover_card" : "https:\/\/images.ygoprodeck.com\/images\/cards_cropped\/14778250.jpg",
+		"cards_in_pack" : 51,
+		"cards_per_pack" : 5
+	},
+	{
+		"id" : 24,
+		"name" : "Fiend Night",
+		"cost" : 100,
+		"unlock_condition" : "Reach level 45",
+		"cover_card" : "https:\/\/images.ygoprodeck.com\/images\/cards_cropped\/53982768.jpg",
+		"cards_in_pack" : 52,
+		"cards_per_pack" : 5
+	},
+	{
+		"id" : 25,
+		"name" : "Earth Dwellers",
+		"cost" : 100,
+		"unlock_condition" : "First stage Saturday",
+		"cover_card" : "https:\/\/images.ygoprodeck.com\/images\/cards_cropped\/71544954.jpg",
+		"cards_in_pack" : 55,
+		"cards_per_pack" : 5
+	},
+	{
+		"id" : 26,
+		"name" : "Approach the Hotties",
+		"cost" : 100,
+		"unlock_condition" : "Clear stages 2 and 3 with Mindy",
+		"cover_card" : "https:\/\/images.ygoprodeck.com\/images\/cards_cropped\/98502113.jpg",
+		"cards_in_pack" : 34,
+		"cards_per_pack" : 5
+	},
+	{
+		"id" : 27,
+		"name" : "Midday Constellation",
+		"cost" : 5730,
+		"unlock_condition" : "Enter Cheat code (Up, Up, Down, Left, Right, Left, Right)",
+		"cover_card" : "https:\/\/images.ygoprodeck.com\/images\/cards_cropped\/93130021.jpg",
+		"cards_in_pack" : 27,
+		"cards_per_pack" : 5
+	},
+	{
+		"id" : 28,
+		"name" : "Visitor from the Dark",
+		"cost" : 100,
+		"unlock_condition" : "First stage Monday",
+		"cover_card" : "https:\/\/images.ygoprodeck.com\/images\/cards_cropped\/76922029.jpg",
+		"cards_in_pack" : 53,
+		"cards_per_pack" : 5
+	},
+	{
+		"id" : 29,
+		"name" : "Maiden's Heartbeat",
+		"cost" : 100,
+		"unlock_condition" : "Have the best relation with Alexis Rhodes",
+		"cover_card" : "https:\/\/images.ygoprodeck.com\/images\/cards_cropped\/10248389.jpg",
+		"cards_in_pack" : 39,
+		"cards_per_pack" : 5
+	},
+	{
+		"id" : 30,
+		"name" : "Technology Master",
+		"cost" : 100,
+		"unlock_condition" : "Have the best relation with Zane Truesdale",
+		"cover_card" : "https:\/\/images.ygoprodeck.com\/images\/cards_cropped\/26439287.jpg",
+		"cards_in_pack" : 39,
+		"cards_per_pack" : 5
+	},
+	{
+		"id" : 31,
+		"name" : "Beast Kingdom",
+		"cost" : 100,
+		"unlock_condition" : "Have the best relation with Chumley Huffington",
+		"cover_card" : "https:\/\/images.ygoprodeck.com\/images\/cards_cropped\/69579761.jpg",
+		"cards_in_pack" : 39,
+		"cards_per_pack" : 5
+	},
+	{
+		"id" : 32,
+		"name" : "Dorothy's Soul",
+		"cost" : 50,
+		"unlock_condition" : "Clear stages 2 and 3 with Dorothy, also she must be the seller (she randomly switches with Sadie every day)",
+		"cover_card" : "https:\/\/images.ygoprodeck.com\/images\/cards_cropped\/68280530.jpg",
+		"cards_in_pack" : 42,
+		"cards_per_pack" : 5
+	},
+	{
+		"id" : 33,
+		"name" : "First Fusion",
+		"cost" : 100,
+		"unlock_condition" : "After May 7, in-game",
+		"cover_card" : "https:\/\/images.ygoprodeck.com\/images\/cards_cropped\/24094653.jpg",
+		"cards_in_pack" : 66,
+		"cards_per_pack" : 5
+	},
+	{
+		"id" : 34,
+		"name" : "Step Up Spell-Trap",
+		"cost" : 150,
+		"unlock_condition" : "Unlocked at the Beginning",
+		"cover_card" : "https:\/\/images.ygoprodeck.com\/images\/cards_cropped\/81210420.jpg",
+		"cards_in_pack" : 68,
+		"cards_per_pack" : 5
+	},
+	{
+		"id" : 35,
+		"name" : "More Eternal Memories",
+		"cost" : 100,
+		"unlock_condition" : "Reach level 20",
+		"cover_card" : "https:\/\/images.ygoprodeck.com\/images\/cards_cropped\/94212438.jpg",
+		"cards_in_pack" : 56,
+		"cards_per_pack" : 5
+	},
+	{
+		"id" : 36,
+		"name" : "Lucky Economy Pack",
+		"cost" : 300,
+		"unlock_condition" : "Randomly low chance to be available for a week",
+		"cover_card" : "https:\/\/images.ygoprodeck.com\/images\/cards_cropped\/99414168.jpg",
+		"cards_in_pack" : 315,
+		"cards_per_pack" : 5
+	},
+	{
+		"id" : 37,
+		"name" : "First Monster",
+		"cost" : 100,
+		"unlock_condition" : "Unlocked at the Beginning",
+		"cover_card" : "https:\/\/images.ygoprodeck.com\/images\/cards_cropped\/89631139.jpg",
+		"cards_in_pack" : 72,
+		"cards_per_pack" : 5
+	},
+	{
+		"id" : 38,
+		"name" : "Platinum Light",
+		"cost" : 100,
+		"unlock_condition" : "First stage Friday",
+		"cover_card" : "https:\/\/images.ygoprodeck.com\/images\/cards_cropped\/97093037.jpg",
+		"cards_in_pack" : 51,
+		"cards_per_pack" : 5
+	},
+	{
+		"id" : 39,
+		"name" : "Life Breaker",
+		"cost" : 100,
+		"unlock_condition" : "Packs First Effect Monsters, Step Up Spell-Trap, and Step Up Fusion have at least 80% collected",
+		"cover_card" : "https:\/\/images.ygoprodeck.com\/images\/cards_cropped\/56120475.jpg",
+		"cards_in_pack" : 54,
+		"cards_per_pack" : 5
+	},
+	{
+		"id" : 40,
+		"name" : "Anti Effect",
+		"cost" : 100,
+		"unlock_condition" : "Packs First Effect Monsters, Step Up Spell-Trap, and Step Up Fusion have at least 80% collected",
+		"cover_card" : "https:\/\/images.ygoprodeck.com\/images\/cards_cropped\/77585513.jpg",
+		"cards_in_pack" : 48,
+		"cards_per_pack" : 5
+	},
+	{
+		"id" : 41,
+		"name" : "Water of Life",
+		"cost" : 100,
+		"unlock_condition" : "First stage Wednesday",
+		"cover_card" : "https:\/\/images.ygoprodeck.com\/images\/cards_cropped\/4929256.jpg",
+		"cards_in_pack" : 54,
+		"cards_per_pack" : 5
+	},
+	{
+		"id" : 42,
+		"name" : "Dragon Drive",
+		"cost" : 100,
+		"unlock_condition" : "Reach level 40",
+		"cover_card" : "https:\/\/images.ygoprodeck.com\/images\/cards_cropped\/73891874.jpg",
+		"cards_in_pack" : 46,
+		"cards_per_pack" : 5
+	},
+	{
+		"id" : 43,
+		"name" : "Emergent Fire",
+		"cost" : 100,
+		"unlock_condition" : "First stage Tuesday",
+		"cover_card" : "https:\/\/images.ygoprodeck.com\/images\/cards_cropped\/61441708.jpg",
+		"cards_in_pack" : 51,
+		"cards_per_pack" : 5
+	},
+	{
+		"id" : 44,
+		"name" : "Equip Me",
+		"cost" : 100,
+		"unlock_condition" : "Reach level 15",
+		"cover_card" : "https:\/\/images.ygoprodeck.com\/images\/cards_cropped\/40619825.jpg",
+		"cards_in_pack" : 58,
+		"cards_per_pack" : 5
+	},
+	{
+		"id" : 45,
+		"name" : "Hero Emerges!",
+		"cost" : 100,
+		"unlock_condition" : "Have the best relation with Jaden Yuki",
+		"cover_card" : "https:\/\/images.ygoprodeck.com\/images\/cards_cropped\/35809262.jpg",
+		"cards_in_pack" : 60,
+		"cards_per_pack" : 5
+	},
+	{
+		"id" : 46,
+		"name" : "Speed King",
+		"cost" : 100,
+		"unlock_condition" : "Reach level 25",
+		"cover_card" : "https:\/\/images.ygoprodeck.com\/images\/cards_cropped\/14315573.jpg",
+		"cards_in_pack" : 41,
+		"cards_per_pack" : 5
+	},
+	{
+		"id" : 47,
+		"name" : "Good Ol' Days",
+		"cost" : 300,
+		"unlock_condition" : "Have 10 consecutive losses once",
+		"cover_card" : "https:\/\/images.ygoprodeck.com\/images\/cards_cropped\/33396948.jpg",
+		"cards_in_pack" : 49,
+		"cards_per_pack" : 5
+	},
+	{
+		"id" : 48,
+		"name" : "Step Up Fusion",
+		"cost" : 150,
+		"unlock_condition" : "After May 7, in-game",
+		"cover_card" : "https:\/\/images.ygoprodeck.com\/images\/cards_cropped\/33550694.jpg",
+		"cards_in_pack" : 63,
+		"cards_per_pack" : 5
+	},
+	{
+		"id" : 49,
+		"name" : "Vanilla Gloom",
+		"cost" : 100,
+		"unlock_condition" : "Enter stage 2 with a page 3 character",
+		"cover_card" : "https:\/\/images.ygoprodeck.com\/images\/cards_cropped\/3573512.jpg",
+		"cards_in_pack" : 170,
+		"cards_per_pack" : 5
+	},
+	{
+		"id" : 50,
+		"name" : "Princeton Power",
+		"cost" : 50,
+		"unlock_condition" : "Clear stages 2 and 3 with Chazz Princeton, Slade Princeton and Jagger Princeton",
+		"cover_card" : "https:\/\/images.ygoprodeck.com\/images\/cards_cropped\/13756293.jpg",
+		"cards_in_pack" : 38,
+		"cards_per_pack" : 5
+	},
+	{
+		"id" : 51,
+		"name" : "A Machine's Soul Never Sleeps",
+		"cost" : 100,
+		"unlock_condition" : "Have the best relation with Syrus Truesdale",
+		"cover_card" : "https:\/\/images.ygoprodeck.com\/images\/cards_cropped\/36256625.jpg",
+		"cards_in_pack" : 40,
+		"cards_per_pack" : 5
+	},
+	{
+		"id" : 52,
+		"name" : "First Effect Monsters",
+		"cost" : 150,
+		"unlock_condition" : "Unlocked at the Beginning",
+		"cover_card" : "https:\/\/images.ygoprodeck.com\/images\/cards_cropped\/57116033.jpg",
+		"cards_in_pack" : 57,
+		"cards_per_pack" : 5
+	},
+	{
+		"id" : 53,
+		"name" : "Flip the Picture",
+		"cost" : 100,
+		"unlock_condition" : "Reach level 10",
+		"cover_card" : "https:\/\/images.ygoprodeck.com\/images\/cards_cropped\/34124316.jpg",
+		"cards_in_pack" : 51,
+		"cards_per_pack" : 5
+	},
+	{
+		"id" : 54,
+		"name" : "Warrior's Pyramid",
+		"cost" : 100,
+		"unlock_condition" : "Have the best relation with Bastion Misawa",
+		"cover_card" : "https:\/\/images.ygoprodeck.com\/images\/cards_cropped\/85066822.jpg",
+		"cards_in_pack" : 39,
+		"cards_per_pack" : 5
+	},
+	{
+		"id" : 55,
+		"name" : "Symbol 50",
+		"cost" : 300,
+		"unlock_condition" : "Reach level 50",
+		"cover_card" : "https:\/\/images.ygoprodeck.com\/images\/cards_cropped\/99267150.jpg",
+		"cards_in_pack" : 465,
+		"cards_per_pack" : 5
+	},
+	{
+		"id" : 56,
+		"name" : "Never Give Up",
+		"cost" : 100,
+		"unlock_condition" : "Have the best relation with Chazz Princeton",
+		"cover_card" : "https:\/\/images.ygoprodeck.com\/images\/cards_cropped\/90140980.jpg",
+		"cards_in_pack" : 40,
+		"cards_per_pack" : 5
+	},
+	{
+		"id" : 57,
+		"name" : "Tag Survivor",
+		"cost" : 100,
+		"unlock_condition" : "Enter stage 2",
+		"cover_card" : "https:\/\/images.ygoprodeck.com\/images\/cards_cropped\/28378427.jpg",
+		"cards_in_pack" : 51,
+		"cards_per_pack" : 5
+	},
+	{
+		"id" : 58,
+		"name" : "Endless Thoughts",
+		"cost" : 100,
+		"unlock_condition" : "Reach level 5",
+		"cover_card" : "https:\/\/images.ygoprodeck.com\/images\/cards_cropped\/97077563.jpg",
+		"cards_in_pack" : 55,
+		"cards_per_pack" : 5
+	},
+	{
+		"id" : 59,
+		"name" : "Ritual Dance",
+		"cost" : 100,
+		"unlock_condition" : "Play time more than 20 hours",
+		"cover_card" : "https:\/\/images.ygoprodeck.com\/images\/cards_cropped\/97642679.jpg",
+		"cards_in_pack" : 47,
+		"cards_per_pack" : 5
+	},
+	{
+		"id" : 60,
+		"name" : "Wave of the Future",
+		"cost" : 300,
+		"unlock_condition" : "Have 10 consecutive wins",
+		"cover_card" : "https:\/\/images.ygoprodeck.com\/images\/cards_cropped\/64599569.jpg",
+		"cards_in_pack" : 52,
+		"cards_per_pack" : 5
+	},
+	{
+		"id" : 61,
+		"name" : "Fairy's Sky",
+		"cost" : 100,
+		"unlock_condition" : "Reach level 35",
+		"cover_card" : "https:\/\/images.ygoprodeck.com\/images\/cards_cropped\/56433456.jpg",
+		"cards_in_pack" : 48,
+		"cards_per_pack" : 5
+	},
+	{
+		"id" : 62,
+		"name" : "Sadie's Soul",
+		"cost" : 50,
+		"unlock_condition" : "Clear stages 2 and 3 with Sadie, also she must be the seller (she randomly switches with Dorothy every day)",
+		"cover_card" : "https:\/\/images.ygoprodeck.com\/images\/cards_cropped\/102380.jpg",
+		"cards_in_pack" : 42,
+		"cards_per_pack" : 5
+	},
+	{
+		"id" : 63,
+		"name" : "Double Triple Destiny Draw",
+		"cost" : 100,
+		"unlock_condition" : "Obtain a Golden Eggwich (Golden Egg Sandwich)",
+		"cover_card" : "https:\/\/images.ygoprodeck.com\/images\/cards_cropped\/55144522.jpg",
+		"cards_in_pack" : 39,
+		"cards_per_pack" : 5
+	},
+	{
+		"id" : 64,
+		"name" : "Cold Skin",
+		"cost" : 100,
+		"unlock_condition" : "50% collected at the Duel Ranking",
+		"cover_card" : "https:\/\/images.ygoprodeck.com\/images\/cards_cropped\/53839837.jpg",
+		"cards_in_pack" : 50,
+		"cards_per_pack" : 5
+	},
+	{
+		"id" : 65,
+		"name" : "Bit Players",
+		"cost" : 100,
+		"unlock_condition" : "Enter stage 2 with a page 2 character",
+		"cover_card" : "https:\/\/images.ygoprodeck.com\/images\/cards_cropped\/7576264.jpg",
+		"cards_in_pack" : 497,
+		"cards_per_pack" : 5
+	},
+	{
+		"id" : 66,
+		"name" : "Checkered Flag",
+		"cost" : 300,
+		"unlock_condition" : "Obtain 90% of all cards in the game",
+		"cover_card" : "Duel Academy",
+		"cards_in_pack" : 2318,
+		"cards_per_pack" : 5
+	}
+]}
