@@ -1,0 +1,18 @@
+{
+  "digimons": [],
+  "digievolutions": [],
+  "teams": [],
+  "traits": [
+    {
+      "id": 1,
+      "name": "Powerful 1",
+      "description": "Digimon's \"Attack\" + 5"
+    },
+    {
+      "id": 2,
+      "name": "Mist Cape 1",
+      "description": "Slightly increases resistance to Water-based attacks"
+    }
+  ],
+  "skills": []
+}
