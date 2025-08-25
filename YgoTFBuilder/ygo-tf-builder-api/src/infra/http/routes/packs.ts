@@ -1,7 +1,7 @@
 import { z } from "zod";
 import type { FastifyPluginAsyncZod } from "fastify-type-provider-zod";
-import { db } from "@/infra/db";
-import { schema } from "@/infra/db/schemas";
+import { db } from "@/infra/db/postgresql";
+import { schema } from "@/infra/db/postgresql/schemas";
 import { eq, inArray } from "drizzle-orm/pg-core/expressions";
 import {
   rarityEnum,
@@ -10,7 +10,7 @@ import {
   raceEnum,
   attributeEnum,
   archetypeEnum,
-} from "@/infra/db/schemas/card";
+} from "@/infra/db/postgresql/schemas/card";
 
 const packsSchema = z.object({
   id: z.number(),

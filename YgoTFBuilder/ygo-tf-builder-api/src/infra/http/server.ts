@@ -13,6 +13,8 @@ import { fastifySwagger } from "@fastify/swagger";
 import { fastifySwaggerUi } from "@fastify/swagger-ui";
 import { seed } from "./routes/seed";
 import { packs } from "./routes/packs";
+import { characters } from "./routes/charaters";
+import { playerDecks } from "./routes/playerDecks";
 
 const server = fastify();
 
@@ -52,6 +54,8 @@ server.register(fastifySwaggerUi, {
 
 server.register(cards);
 server.register(packs);
+server.register(characters);
+server.register(playerDecks);
 server.register(seed);
 
 server

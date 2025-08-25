@@ -1,7 +1,7 @@
 import { z } from "zod";
 import type { FastifyPluginAsyncZod } from "fastify-type-provider-zod";
-import { db } from "@/infra/db";
-import { schema } from "@/infra/db/schemas";
+import { db } from "@/infra/db/postgresql";
+import { schema } from "@/infra/db/postgresql/schemas";
 import {
   rarityEnum,
   typeEnum,
@@ -9,9 +9,10 @@ import {
   raceEnum,
   attributeEnum,
   archetypeEnum,
-} from "@/infra/db/schemas/card";
+} from "@/infra/db/postgresql/schemas/card";
 import { and, eq } from "drizzle-orm/pg-core/expressions";
 import { sql } from "drizzle-orm";
+import { parseFilters } from "@/utils/filters/parseFilters";
 
 const cardFilterSchema = z.object({
   name: z.string().nullish(),
@@ -82,14 +83,7 @@ export const cards: FastifyPluginAsyncZod = async (server) => {
 
       const offset = (Number(pagination.page) - 1) * Number(pagination.perPage);
 
-      const conditions = Object.entries(parsedFilters)
-        .filter(([_, value]) => value != null)
-        .map(([key, value]) =>
-          eq(schema.card[key as keyof typeof schema.card] as any, value as any)
-        );
-
-      const whereClause =
-        conditions.length > 0 ? and(...conditions) : undefined;
+      const whereClause = parseFilters(parsedFilters);
 
       const totalResult = await db
         .select({ count: sql<number>`count(*)` })
@@ -121,9 +115,7 @@ export const cards: FastifyPluginAsyncZod = async (server) => {
       schema: {
         summary: "Get a card by id",
         response: {
-          200: z.object({
-            data: cardsSchema,
-          }),
+          200: cardsSchema,
           404: z.object({}).describe("No card found for given id"), //get cards object paginated but empty
         },
       },
@@ -142,7 +134,7 @@ export const cards: FastifyPluginAsyncZod = async (server) => {
 
       const parsedResult = cardsSchema.parse(card);
 
-      return reply.status(200).send({ data: parsedResult });
+      return reply.status(200).send(parsedResult);
     }
   );
 };

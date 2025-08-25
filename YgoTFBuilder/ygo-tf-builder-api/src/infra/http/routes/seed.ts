@@ -1,10 +1,10 @@
-import { db } from "@/infra/db";
-import { schema } from "@/infra/db/schemas";
+import { db } from "@/infra/db/postgresql";
+import { schema } from "@/infra/db/postgresql/schemas";
 import type { FastifyPluginAsyncZod } from "fastify-type-provider-zod";
 import { z } from "zod";
-import cardJson from "../../db/initialState/card.json";
-import packJson from "../../db/initialState/pack.json";
-import cardsPerPackJson from "../../db/initialState/pack_card.json";
+import cardJson from "../../db/postgresql/initialState/card.json";
+import packJson from "../../db/postgresql/initialState/pack.json";
+import cardsPerPackJson from "../../db/postgresql/initialState/pack_card.json";
 import { keysToCamel } from "@/utils/conversions/snakeToCamel";
 import {
   archetypeEnum,
@@ -13,7 +13,7 @@ import {
   raceEnum,
   rarityEnum,
   typeEnum,
-} from "@/infra/db/schemas/card";
+} from "@/infra/db/postgresql/schemas/card";
 
 const cardDbSchema = z.object({
   name: z.string(),
