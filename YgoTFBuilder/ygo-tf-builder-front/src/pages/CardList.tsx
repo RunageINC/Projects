@@ -1,27 +1,9 @@
-import { useQuery } from "@tanstack/react-query";
-
-import { Card } from "@/components/Card";
-import axios from "axios";
+import { Card } from "@/components/card";
+import { useCards } from "@/components/context/useCards";
 import { PaginationBar } from "@/components/pagination-bar";
 
-export function Home() {
-  const handleFetchQuery = async () => {
-    const response = await axios.get<Pagination<Card>>(
-      "http://localhost:3333/cards"
-    );
-
-    if (response.status === 200) {
-      return response.data;
-    }
-
-    return null;
-  };
-
-  const { data: cardData } = useQuery({
-    queryKey: ["cards"],
-    queryFn: handleFetchQuery,
-    refetchInterval: Infinity,
-  });
+export function CardList() {
+  const { cardData } = useCards();
 
   return (
     <div className="w-[100dvw]">

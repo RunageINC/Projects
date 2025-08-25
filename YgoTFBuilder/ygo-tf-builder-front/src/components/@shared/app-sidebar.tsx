@@ -33,7 +33,7 @@ export function AppSidebar() {
             <SidebarMenu>
               <SidebarMenuItem>
                 <SidebarMenuButton asChild>
-                  <Link to={"#"}>
+                  <Link to={"/decks"}>
                     <WalletCards />
                     <span>Decks</span>
                   </Link>
@@ -58,7 +58,7 @@ export function AppSidebar() {
             <SidebarMenu>
               <SidebarMenuItem>
                 <SidebarMenuButton asChild>
-                  <Link to={"#"}>
+                  <Link to={"/characters"}>
                     <IdCardLanyard />
                     <span>List Characters</span>
                   </Link>

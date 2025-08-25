@@ -25,3 +25,30 @@ type Card = {
   image: string;
   imageCropped: string;
 };
+
+type Deck = {
+  name: string;
+  gameAppearance: string;
+  coverCard: string;
+  description: string;
+  playtip: string;
+  mainDeck: number[];
+  extraDeck: number[];
+  sideDeck: number[];
+};
+
+type PlayerDeck = Deck & {
+  _id: string;
+  bestPartners: string[];
+};
+
+type Duelist = {
+  _id: string;
+  name: string;
+  gameAppearance: string;
+  level: string;
+  imageUrl: string;
+  description: string;
+  foundAt: string;
+  decks: Deck[];
+};
